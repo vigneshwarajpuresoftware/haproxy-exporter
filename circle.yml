@@ -59,4 +59,4 @@ deployment:
             docker tag "$QUAY_IMAGE_NAME:$CIRCLE_TAG" "$QUAY_IMAGE_NAME:latest"
         fi
       - docker push $DOCKER_IMAGE_NAME
-      - docker push $QUAY_IMAGE_NAME
+      - docker push $QUAY_IMAGE_NAME 
